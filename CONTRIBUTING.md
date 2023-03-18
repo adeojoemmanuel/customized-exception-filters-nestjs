@@ -13,6 +13,40 @@ before contributing. If you find someone that is not respecting it please report
 
 ## How Can I Contribute
 
+There are several ways you can contribute to [Project Name]:
+
+- Report a bug
+- Suggest a new feature
+- update documentation
+- Fix a bug or implement a feature
+- If you're not sure where to start, take a look at our issue tracker to see if there are any open issues that interest you.
+
+## Getting Started
+To get started contributing, you should first fork the repository and then clone it to your local machine:
+
+```
+git clone https://github.com/adeojoemmanuel/customized-exception-filters-nestjs
+```
+
+Next, create a new branch for your changes:
+
+```
+git checkout -b my-new-feature
+```
+
+Make your changes and commit them with a descriptive commit message:
+
+```
+git commit -m "(task-last-task-number+1) Add some feature"
+```
+
+Push your changes to your forked repository:
+
+```
+git push origin my-new-feature
+```
+
+Finally, submit a pull request to the original repository. We'll review your changes and provide feedback as soon as possible.
 ### Reporting Bugs
 
 Before reporting a bug please search if there isn’t already a similar issue already open. If you find a similar issue
