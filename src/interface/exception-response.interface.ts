@@ -8,10 +8,6 @@ export interface HttpExceptionResponse {
   readonly messages: unknown[];
 }
 
-export interface AllException {
-  readonly response: object
-}
-
 export interface ExceptionResponse {
   readonly statusCode: number;
 
