@@ -1,0 +1,92 @@
+{
+  "plugins": ["@typescript-eslint", "import"],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/member-delimiter-style": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/no-unused-vars": [
+      2,
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/ban-ts-comment": [
+      "error",
+      {
+        "ts-ignore": "allow-with-description"
+      }
+    ],
+    "sort-imports": "off",
+    "import/first": "error",
+    "import/prefer-default-export": "off",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "arrow-parens": "off",
+    "operator-linebreak": [
+      "error",
+      "after",
+      { "overrides": { "?": "before", ":": "before" } }
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "no-param-reassign": "off",
+    "object-curly-newline": "off",
+    "object-curly-spacing": ["error", "always"],
+    "prefer-object-spread": "off",
+    "space-before-function-paren": ["error", "always"],
+    "function-paren-newline": "off",
+    "max-len": ["error", { "code": 140 }],
+    "implicit-arrow-linebreak": "off",
+    "comma-dangle": "off",
+    "prefer-template": "off",
+    "prefer-destructuring": "off",
+    "no-return-assign": "off",
+    "camelcase": "off",
+    "no-use-before-define": "off",
+    "no-nested-ternary": "off",
+    "consistent-return": "off",
+    "class-methods-use-this": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["const", "let"],
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["const"],
+        "next": ["if"]
+      },
+      {
+        "blankLine": "always",
+        "prev": ["if"],
+        "next": ["const"]
+      },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let"],
+        "next": ["const", "let"]
+      }
+    ]
+  },
+  "globals": {
+    "process": "readonly",
+    "JSX": "readonly",
+    "location": "readonly"
+  }
+}
