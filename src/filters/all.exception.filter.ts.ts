@@ -10,7 +10,6 @@ import { HttpArgumentsHost } from '@nestjs/common/interfaces';
 import { ExceptionResponse } from '../interface/exception-response.interface';
 
 @Catch()
-// eslint-disable-next-line import/prefer-default-export
 export class AllExceptionsFilter implements ExceptionFilter {
   catch(exception: any, host: ArgumentsHost) {
     const ctx: HttpArgumentsHost = host.switchToHttp();
